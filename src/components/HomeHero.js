@@ -12,10 +12,10 @@ const HomeHero = () => {
           >
             Netbook community
           </button>
-          <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
+          <h1 className="max-w-2xl mb-4 text-5xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
             Your Solutions For Community!
           </h1>
-          <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+          <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 text-lg lg:text-xl dark:text-gray-400">
             More than 2 billion people in over countries use socibook to stay in
             touch with friends & family.
           </p>
