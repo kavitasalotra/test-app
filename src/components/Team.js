@@ -46,16 +46,16 @@ const team = [
 
 export const Team = () => {
   return (
-    <section className="mx-20 bg-white  px-6">
-      <div className="py-6 dark:bg-gray-800 dark:text-gray-100">
-        <div className="container flex flex-col items-center justify-center p-4 mx-auto space-y-8 sm:p-10">
+    <section className="sm:mx-16 bg-white  px-6">
+      <div className="py-6  container dark:bg-gray-800 dark:text-gray-100">
+        <div className=" flex flex-col items-center justify-centers">
           <h2 className="text-lg font-semibold text-indigo-600">
             Valuable Team
           </h2>
-          <h1 className="text-4xl font-bold leading-none text-center sm:text-5xl">
+          <h1 className="text-2xl font-bold text-[#0A093D] leading-none text-center mb-4 sm:text-4xl">
             Our Active Members
           </h1>
-          <p className="max-w-2xl text-center dark:text-gray-400">
+          <p className="max-w-2xl text-center  text-[#656464]  mb-4">
             when an unknown printer took a galley of type and meeting fari
             scrambled it.
           </p>
@@ -72,8 +72,8 @@ export const Team = () => {
               </li>
             ))}
           </ul>
-          <div className="py-4 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
-            <div className="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+          <div className=" text-center lg:py-14 ">
+            <div className="grid gap-8 lg:gap-20 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
               {team.map((team) => (
                 <div className="text-center text-gray-500 dark:text-gray-400">
                   <Image

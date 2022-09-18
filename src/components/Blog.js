@@ -23,10 +23,10 @@ export const Blog = () => {
   return (
     <div className=" dark:bg-gray-800 dark:text-gray-100">
       <div className="container flex flex-col items-center justify-center p-4 mx-auto sm:p-10">
-        <h2 className="text-lg font-semibold text-indigo-600">
+        <h2 className="text-lg font-semibold text-[#217BF4]">
           Get Our Aplication
         </h2>
-        <p className="text-4xl mt-2 font-bold leading-none text-center sm:text-5xl">
+        <p className="text-2xl mt-2 sm:mb-8 font-bold leading-none text-[#0A093D] text-center sm:text-4xl">
           Latest News
         </p>
         <div class="grid lg:grid-cols-3">
@@ -45,6 +45,9 @@ export const Blog = () => {
                 <div className="p-2 text-left">
                   <a href="#">
                     <h5 className="mb-2 text-xl text-left font-semibold tracking-tight text-gray-900 dark:text-white">
+                      <span className="mr-2 font-normal text-orange-400">
+                        ―
+                      </span>
                       {item.title}
                     </h5>
                   </a>
