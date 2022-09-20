@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import { BsFillPlayCircleFill } from 'react-icons/bs';
 
 const About = () => {
   return (
