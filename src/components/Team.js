@@ -49,14 +49,17 @@ const team = [
 ];
 
 export const Team = () => {
-  const [Active, setActive] = useState(0);
+  const [active, setActive] = useState('all');
+  const [teamList, setTeamList] = useState(team);
+
   const filterItem = (cateItem) => {
-    console.log(filterItem, 'filterItem');
-    const updateItems = team.filter((curEle) => {
-      return curEle.category == cateItem;
+    const updateItems = team?.filter((curEle) => {
+      return curEle.category === cateItem;
     });
-    setItems = updateItems;
+    setTeamList(updateItems);
+    setActive(updateItems);
   };
+  console.log(filterItem, 'filterItem');
   return (
     <section className="sm:mx-16 bg-white  px-6">
       <div className="py-6  container dark:bg-gray-800 dark:text-gray-100">
@@ -74,7 +77,10 @@ export const Team = () => {
           <ul className=" hidden text-sm font-medium text-center text-gray-500  bg-sky-100 rounded-lg divide-x divide-gray-200 shadow sm:flex dark:divide-gray-700 dark:text-gray-400">
             <li className="w-full">
               <button
-                className="inline-block p-4 w-full text-gray-900  focus:ring-4 focus:ring-blue-300 active focus:outline-none dark:bg-gray-700 dark:text-white"
+                className={`inline-block p-4 w-full text-gray-900  focus:ring-4 focus:ring-blue-300 active focus:outline-none dark:bg-gray-700 dark:text-white ${
+                  active ? '' : ''
+                }`}
+                s
                 aria-current="button"
                 onClick={() => filterItem('Newest')}
               >
@@ -99,20 +105,11 @@ export const Team = () => {
                 Active
               </button>
             </li>
-            <li className="w-full">
-              <button
-                className="inline-block p-4 w-full text-gray-900  focus:ring-4 focus:ring-blue-300 active focus:outline-none dark:bg-gray-700 dark:text-white"
-                aria-current="button"
-                onClick={() => setActive('team')}
-              >
-                All
-              </button>
-            </li>
           </ul>
-          {Active ? (
+          {active && (
             <div className=" text-center lg:py-14 ">
               <div className="grid gap-8 lg:gap-20 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-                {team.map((item) => (
+                {teamList.map((item) => (
                   <div className="text-center text-gray-500 dark:text-gray-400">
                     <Image
                       alt=""
@@ -129,8 +126,6 @@ export const Team = () => {
                 ))}
               </div>
             </div>
-          ) : (
-            ' '
           )}
         </div>
       </div>

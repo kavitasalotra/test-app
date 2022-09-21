@@ -3,9 +3,9 @@ import Layout from '../components/Layout';
 import HomeHero from '../components/HomeHero';
 import About from '../components/About';
 import FeatureCard from '../components/FeatureCard';
-// import Tab from '../components/Tab';
 import Team from '../components/Team';
 import BlogItem from '../components/BlogItem';
+import Blog from '../components/Blog';
 import CallToAction from '../components/Invite';
 import fs from 'fs';
 import path from 'path';
@@ -17,19 +17,23 @@ export default function Home({ posts }) {
     <Layout>
       <HomeHero />
       <About />
-      {/* <Tab /> */}
       <FeatureCard />
       <CallToAction />
       <Team />
-      <div className="flex flex-col items-cent">
-        {posts &&
-          posts.map((item) => (
-            <BlogItem
-              key={item.filePath}
-              item={item.data}
-              filePath={item.filePath}
-            />
-          ))}
+      <div>
+        <Blog />
+        <div className="container mx-auto px-7 py-5 lg:py-4 mx-auto xl:px-12">
+          <div className="grid grid-cols-1  sm:gap-28 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5 ">
+            {posts &&
+              posts.map((item) => (
+                <BlogItem
+                  key={item.filePath}
+                  item={item.data}
+                  filePath={item.filePath}
+                />
+              ))}
+          </div>
+        </div>
       </div>
     </Layout>
   );
