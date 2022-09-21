@@ -13,13 +13,16 @@ export default function PostPage({ source, frontMatter }) {
     <Layout>
       <div className="px-10">
         <Image
-          className="rounded-lg m-4"
+          className="rounded-lg m-4 object-contain"
           src={frontMatter.featuredImage}
           alt=""
           width={1280}
           height={506}
         />
-        <main className="text-base max-w-prose  mx-4  my-4 text-left prose prose-a:text-blue-500">
+        <h1 className="text-3xl  text-center text-gray-800  font-bold my-2">
+          {frontMatter.title}
+        </h1>
+        <main className=" max-w-screen-lg mx-auto  my-4 text-left prose prose-a:text-blue-500">
           <MDXRemote {...source} />
         </main>
       </div>
