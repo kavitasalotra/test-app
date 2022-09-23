@@ -20,14 +20,14 @@ const HomeHero = () => {
             touch with friends & family.
           </p>
           <a
-            href="#"
+            href="/#About "
             className="inline-flex bg-[#217BF4] items-center justify-center px-5 py-3 mr-3 text-sm font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
           >
-            About More
+            About Us
           </a>
 
           <a
-            href="#"
+            href="/#Invite"
             className="inline-flex items-center text-[#217BF4] justify-center px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
           >
             Invite Friend

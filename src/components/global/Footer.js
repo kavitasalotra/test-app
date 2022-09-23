@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -199,7 +200,9 @@ const Footer = () => {
           </div>
         </div>
         <div className="sm:flex flex-wrap hidden justify-between items-center py-6 -m-4">
-          <div className="w-auto p-4 text-white">Besnik Creative Agency.</div>
+          <div className="w-auto p-4 text-white">
+            <Link href="https://zeiq.co/">zeiq.co</Link>
+          </div>
           <div className="w-auto p-4">
             <p className="text-sm text-gray-600 font-medium">
               <span className="font-semibold text-xl tracking-tight">

@@ -11,7 +11,7 @@ export default function PostPage({ source, frontMatter }) {
   // console.log(frontMatter);
   return (
     <Layout>
-      <div className="px-10">
+      <div className="px-10 pt-4">
         <Image
           className="rounded-lg m-4 object-contain"
           src={frontMatter.featuredImage}

@@ -4,7 +4,7 @@ import Image from 'next/image';
 const modal = () => {
   const [showModal, setShowModal] = useState(false);
   return (
-    <>
+    <div id="LoginForm">
       <button
         className="bg-blue-800 text-white active:bg-pink-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
         type="button"
@@ -165,7 +165,7 @@ const modal = () => {
           <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
         </>
       ) : null}
-    </>
+    </div>
   );
 };
 

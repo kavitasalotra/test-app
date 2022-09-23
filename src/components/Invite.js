@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const CallToAction = () => {
   return (
-    <div className="bg-[#E5F0FD]">
+    <div className="bg-[#E5F0FD]" id="Invite">
       <div className="container sm:mx-16 p-8 flex flex-col justify-center lg:flex-row lg:justify-between">
         <div className="flex flex-col justify-center p-8 text-center rounded-sm lg:max-w-md xl:max-w-md lg:text-left">
           <h2 className="text-lg font-semibold text-[#217BF4]">
@@ -19,7 +19,7 @@ const CallToAction = () => {
           <div className="inline-flex items-center  sm:flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
             <a
               rel="noopener noreferrer"
-              href="#"
+              href="https://play.google.com/store/games?utm_source=apac_med&utm_medium=hasem&utm_content=Oct0121&utm_campaign=Evergreen&pcampaignid=MKT-EDR-apac-in-1003227-med-hasem-py-Evergreen-Oct0121-Text_Search_BKWS-BKWS%7CONSEM_kwid_43700065205026376_creativeid_535350509651_device_c&gclid=Cj0KCQjwsrWZBhC4ARIsAGGUJuqhRiOWlmEruCpSib9wqUCE5ME-mf6wWXPpNG2H5zK37Yyz9qjpcpwaAtQgEALw_wcB&gclsrc=aw.ds"
               className=" py-3 text-lg font-semibold rounded dark:bg-violet-400 dark:text-gray-900"
             >
               <button
@@ -40,7 +40,7 @@ const CallToAction = () => {
                       />
                     </svg>
                     <span class="font-medium text-xs text-gray-400">
-                      Download on the{' '}
+                      Download on the
                       <h1 className="text-slate-600 font-semibold">
                         App Store
                       </h1>{' '}
@@ -51,7 +51,7 @@ const CallToAction = () => {
             </a>
             <a
               rel="noopener noreferrer"
-              href="#"
+              href="https://play.google.com/store/apps?utm_source=apac_med&utm_medium=hasem&utm_content=Oct0121&utm_campaign=Evergreen&pcampaignid=MKT-EDR-apac-in-1003227-med-hasem-ap-Evergreen-Oct0121-Text_Search_BKWS-BKWS%7cONSEM_kwid_43700058910730983_creativeid_480912223122_device_c&gclid=EAIaIQobChMI-7bc3uSq-gIVk4ZLBR3Zsw8dEAAYAiAAEgLpmPD_BwE&gclsrc=aw.ds"
               className=" py-3 text-lg font-semibold border  dark:border-gray-100"
             >
               <button
@@ -67,8 +67,8 @@ const CallToAction = () => {
                       alt="icon"
                     />
                     <span class="font-medium text-xs text-white mb-[-3px]">
-                      Download on the{' '}
-                      <h1 className="text-white font-semibold">Play Store</h1>{' '}
+                      Download on the
+                      <h1 className="text-white font-semibold">Play Store</h1>
                     </span>
                   </div>
                 </div>

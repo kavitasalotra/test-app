@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const card = [
   {
@@ -22,6 +23,21 @@ const card = [
   },
 ];
 
+const reviewImage = [
+  {
+    id: 1,
+    image: '/images/review-1.png',
+  },
+  {
+    id: 2,
+    image: '/images/review-2.png',
+  },
+  {
+    id: 3,
+    image: '/images/review-3.png',
+  },
+];
+
 const ReviewCard = () => {
   return (
     <div className="sm:ml-14  sm:mr-4 sm:max-w-screen-xl bg-white  px-6">
@@ -38,29 +54,15 @@ const ReviewCard = () => {
               <div className="-mx-8 px-8 pb-3">
                 <div className="flex items-center mt-2">
                   <div class="flex -space-x-1 overflow-hidden">
-                    <Image
-                      class="inline-block rounded-full ring-2 ring-white"
-                      src="/images/review-1.png"
-                      height={24}
-                      width={24}
-                      alt="unsplash"
-                    />
-                    <Image
-                      cardItem
-                      class="inline-block rounded-full ring-2 ring-white"
-                      src="/images/review-2.png"
-                      height={24}
-                      width={24}
-                      alt="unsplash"
-                    />
-                    <Image
-                      class="inline-block  rounded-full ring-2 ring-white"
-                      src="/images/review-3.png"
-                      height={24}
-                      cardItem
-                      width={24}
-                      alt="unsplash"
-                    />
+                    {reviewImage.map((item) => (
+                      <Image
+                        class="inline-block rounded-full ring-2 ring-white"
+                        src={item.image}
+                        height={24}
+                        width={24}
+                        alt="unsplash"
+                      />
+                    ))}
                     <p class="pl-4 text-sm font-semibold text-[#5D5B70] dark:text-white">
                       <span className="text-[#217BF4]">{item.members}</span>{' '}
                       Members
@@ -71,22 +73,24 @@ const ReviewCard = () => {
                   <p className="text-[#8C8C8C] text-base font-normal  py-1">
                     {item.review}
                   </p>
-                  <a className="inline-flex items-center py-2 px-3 text-base font-medium text-center text-[#217BF4] ">
-                    {item.link}
-                    <svg
-                      aria-hidden="true"
-                      className="ml-2 -mr-1 w-4 h-4"
-                      fill="currentColor"
-                      viewBox="0 0 20 20"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                        clip-rule="evenodd"
-                      ></path>
-                    </svg>
-                  </a>
+                  <Link href="/">
+                    <a className="inline-flex items-center py-2 px-3 text-base font-medium text-center text-[#217BF4] ">
+                      {item.link}
+                      <svg
+                        aria-hidden="true"
+                        className="ml-2 -mr-1 w-4 h-4"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </svg>
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>

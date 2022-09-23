@@ -4,7 +4,7 @@ import ReviewCard from './ReviewCard';
 
 const Achievment = () => {
   return (
-    <div className=" hidden sm:flex justify-space-between">
+    <div className="hidden sm:flex justify-space-between">
       <ReviewCard />
       <CardItem />
     </div>
