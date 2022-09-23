@@ -49,17 +49,20 @@ const data = [
 
 const FeatureCard = () => {
   return (
-    <section className=" sm:mx-20 sm:max-w-screen-xl bg-white  px-6">
+    <section
+      className=" sm:mx-20 sm:max-w-screen-xl bg-white  px-6"
+      id="Community"
+    >
       <div className="bg-white py-12">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="lg:text-center">
             <h2 className="text-lg font-semibold text-[#217BF4]">
               Our Community
             </h2>
-            <p className="text-4xl font-bold leading-8  text-[#0A093D] sm:text-4xl">
+            <p className="text-2xl font-bold leading-8  text-[#0A093D] sm:text-4xl">
               Community Main Feature
             </p>
-            <p className="mt-4 max-w-2xl text-xl text-[#656464]  lg:mx-auto">
+            <p className="mt-4 max-w-2xl sm:text-xl text-[#656464]  lg:mx-auto">
               The wise man therefore always holds in these matters to this
               principle of selection.
             </p>

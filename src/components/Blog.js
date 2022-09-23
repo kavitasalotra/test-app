@@ -2,7 +2,7 @@ import React from 'react';
 
 const Blog = () => {
   return (
-    <div className=" sm:mx-16  ">
+    <div className=" sm:mx-16 mt-4 ">
       <div className="container flex flex-col items-center justify-center ">
         <h2 className="text-lg font-semibold text-[#217BF4]">
           Get Our Aplication

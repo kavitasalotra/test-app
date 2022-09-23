@@ -8,11 +8,11 @@ const HomeHero = () => {
         <div className="mr-auto place-self-center lg:col-span-7">
           <button
             type="button"
-            className=" py-2   w-52 font-medium text-xs text-[#217BF4] rounded-lg bg-blue-100"
+            className=" py-2  w-52 font-medium text-xs text-[#217BF4] rounded-lg bg-blue-100"
           >
             Netbook community
           </button>
-          <h1 className=" mb-4 text-5xl  text-[#0A093D] font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl">
+          <h1 className=" mb-4  text-5xl  text-[#0A093D] font-extrabold tracking-tight leading-none ">
             Your Solutions For Community!
           </h1>
           <p className=" mb-6 font-bold  text-[#656464]  lg:mb-8 text-lg lg:text-xl dark:text-gray-400">

@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 import HomeHero from '../components/HomeHero';
 import About from '../components/About';
-import FeatureCard from '../components/FeatureCard';
+import Community from '../components/Community';
 import Team from '../components/Team';
 import BlogItem from '../components/BlogItem';
 import Blog from '../components/Blog';
@@ -11,13 +11,15 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import { postFilePaths, POSTS_PATH } from '../../utils/mdxUtils';
+import Achievment from '../components/Achievment';
 
 export default function Home({ posts }) {
   return (
     <Layout>
       <HomeHero />
       <About />
-      <FeatureCard />
+      <Achievment />
+      <Community />
       <CallToAction />
       <Team />
       <div>

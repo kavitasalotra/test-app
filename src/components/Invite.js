@@ -9,14 +9,14 @@ const CallToAction = () => {
           <h2 className="text-lg font-semibold text-[#217BF4]">
             Get Our Aplication
           </h2>
-          <h1 className=" text-xl sm:text-4xl text-[#0A093D] font-bold leading-none ">
+          <h1 className=" text-2xl sm:text-4xl text-[#0A093D] font-bold leading-none ">
             You Can Easily Find This App…!
           </h1>
           <p className="mt-6 mb-8   text-[#656464]  sm:w-text-base sm:mb-12">
             I say chap that’s suing lavatory chip shop gosh off his smashing
             boot are you taking the piss posh loo brilliant.
           </p>
-          <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
+          <div className="inline-flex items-center  sm:flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
             <a
               rel="noopener noreferrer"
               href="#"
@@ -76,13 +76,13 @@ const CallToAction = () => {
             </a>
           </div>
         </div>
-        <div className="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
+        <div className=" sm:flex items-center hidden  justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
           <Image
             src="/images/mobile.png"
             alt=""
             height={734}
             width={441}
-            className="object-contain"
+            className=" object-contain "
           />
         </div>
       </div>

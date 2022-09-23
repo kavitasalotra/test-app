@@ -1,20 +1,19 @@
 import React from 'react';
 import Image from 'next/image';
-import { BsFillPlayCircleFill } from 'react-icons/bs';
 
 const About = () => {
   return (
-    <div className="container  sm:max-w-6xl px-6 py-8 mx-auto ">
+    <div className="container  sm:max-w-6xl px-6 py-8 mx-auto" id="About">
       <div className="grid items-center gap-4 xl:grid-cols-5">
         <div className="max-w-sm mx-auto space-y-4 text-center xl:col-span-2 xl:text-left">
           <h1 className="text-lg font-medium leading-4 text-blue-400">
             {' '}
             What is Netbooks?
           </h1>
-          <h2 className="text-4xl font-bold   text-[#0A093D] leading-10">
+          <h2 className="text-2xl leading-6 sm:text-4xl font-bold   text-[#0A093D] sm:leading-10">
             Why Join to Netbook Social Network?
           </h2>
-          <p className="text-[#656464] leading-7 mb-4">
+          <p className="text-[#656464] sm:text-lg leading-7 mb-4">
             Recent surveys have indicated that small businesses recognise the
             need they have to connect with consumer.
           </p>

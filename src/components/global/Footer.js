@@ -168,11 +168,11 @@ const Footer = () => {
                 <h3 className="mb-6 font-medium  sm:w-40 text-white text-xl leading-normal">
                   Subscribe Circle Newsletter
                 </h3>
-                <p className="mb-5 font-sans text-white leading-relaxed">
+                <p className="mb-5 text-white leading-relaxed">
                   Subscribe to be the first one to know about updates. Enter
                   your email
                 </p>
-                <div className="mb-3 xl:pl-6 inline-block md:max-w-xl w-full overflow-hidden border border-gray-300 rounded-xl focus-within:ring focus-within:ring-indigo-300">
+                <div className="mb-3 xl:pl-6 inline-block md:max-w-xl w-full overflow-hidden border border-gray-300 rounded-xl ">
                   <div className="flex flex-wrap items-center">
                     <div className="w-full xl:flex-1">
                       <input
@@ -185,7 +185,7 @@ const Footer = () => {
                     <div className="w-full xl:w-auto">
                       <div className="block">
                         <button
-                          className="py-4 px-8 w-full text-black font-semibold border border-white focus:ring focus:ring-white bg-white transition ease-in-out duration-200"
+                          className="py-2 px-8 w-full sm:py-4 px-8 w-full text-black font-semibold border border-transparent  bg-white "
                           type="button"
                         >
                           Subscribe
@@ -198,7 +198,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-wrap justify-between items-center py-6 -m-4">
+        <div className="sm:flex flex-wrap hidden justify-between items-center py-6 -m-4">
           <div className="w-auto p-4 text-white">Besnik Creative Agency.</div>
           <div className="w-auto p-4">
             <p className="text-sm text-gray-600 font-medium">

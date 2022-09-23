@@ -1,9 +1,11 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
+import Loginmodal from '../element/Loginmodal';
 
 const Header = () => {
   return (
-    <nav className="flex items-center justify-between flex-wrap py-4 lg:px-12 border-solid border-t-2 border-blue-700">
+    <nav className="flex items-center justify-between flex-wrap py-4 lg:px-12 border-solid border-b-2 border-slate-200">
       <div className="flex justify-between lg:w-auto w-full lg:border-b-0 pl-6 pr-2 border-solid border-b-2 border-gray-300 pb-5 lg:pb-0">
         <div className="flex items-center flex-shrink-0 text-gray-800 mr-16">
           <span className="font-semibold text-xl tracking-tight">
@@ -43,30 +45,26 @@ const Header = () => {
       </div>
       <div className="menu w-full lg:block flex-grow lg:flex lg:items-center lg:w-auto lg:px-3 px-8">
         <div className="text-sm font-semibold text-zinc-700 lg:flex-grow">
-          <a
-            href="#responsive-header"
-            className="block mt-4 lg:inline-block lg:mt-0 hover:text-white px-4 py-2 rounded hover:bg-blue-700 mr-2"
-          >
-            Home
-          </a>
-          <a
-            href="#responsive-header"
-            className=" block mt-4 lg:inline-block lg:mt-0 hover:text-white px-4 py-2 rounded hover:bg-blue-700 mr-2"
-          >
-            Community
-          </a>
-          <a
-            href="#responsive-header"
-            className="block mt-4 lg:inline-block lg:mt-0 hover:text-white px-4 py-2 rounded hover:bg-blue-700 mr-2"
-          >
-            Blog
-          </a>
-          <a
-            href="#responsive-header"
-            className="block mt-4 lg:inline-block lg:mt-0 hover:text-white px-4 py-2 rounded hover:bg-blue-700 mr-2"
-          >
-            Events
-          </a>
+          <Link href="/">
+            <a className="block mt-4 lg:inline-block lg:mt-0 hover:text-white px-4 py-2 rounded hover:bg-blue-700 mr-2">
+              Home
+            </a>
+          </Link>
+          <Link href="/#About">
+            <a className="block mt-4 lg:inline-block lg:mt-0 hover:text-white px-4 py-2 rounded hover:bg-blue-700 mr-2">
+              About Us
+            </a>
+          </Link>
+          <Link href="/#Community">
+            <a className=" block mt-4 lg:inline-block lg:mt-0 hover:text-white px-4 py-2 rounded hover:bg-blue-700 mr-2">
+              Community
+            </a>
+          </Link>
+          <Link href="/blog">
+            <a className="block mt-4 lg:inline-block lg:mt-0 hover:text-white px-4 py-2 rounded hover:bg-blue-700 mr-2">
+              Blog
+            </a>
+          </Link>
         </div>
         <div className="relative mx-auto text-gray-600 lg:block hidden mr-4">
           <input
@@ -93,12 +91,7 @@ const Header = () => {
           </button>
         </div>
         <div className="flex ">
-          <a
-            href="#"
-            className=" block text-sm px-10 py-4 text-white bg-blue-700 ml-2 rounded-lg  font-bold  mt-4 lg:mt-0"
-          >
-            login
-          </a>
+          <Loginmodal />
         </div>
       </div>
     </nav>
