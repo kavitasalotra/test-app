@@ -19,7 +19,7 @@ export default function PostPage({ source, frontMatter }) {
           width={1280}
           height={506}
         />
-        <h1 className="text-3xl  text-center text-gray-800  font-bold my-2">
+        <h1 className="sm:text-3xl text-2xl  text-center text-gray-800  font-bold my-2">
           {frontMatter.title}
         </h1>
         <main className=" max-w-screen-lg mx-auto  my-4 text-left prose prose-a:text-blue-500">

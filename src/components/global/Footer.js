@@ -14,36 +14,26 @@ const Footer = () => {
               </h3>
               <ul>
                 <li className="mb-3.5">
-                  <a
-                    className=" text-white hover:text-gray-700 font-medium leading-relaxed"
-                    href="#"
-                  >
-                    Home
-                  </a>
+                  <Link href="/">
+                    <a className=" text-white font-medium leading-relaxed">
+                      Home
+                    </a>
+                  </Link>
                 </li>
                 <li className="mb-3.5">
                   <a
-                    className="text-white hover:text-gray-700 font-medium leading-relaxed"
-                    href="#"
+                    className="text-white font-medium leading-relaxed"
+                    href="/#Community"
                   >
                     Community
                   </a>
                 </li>
                 <li className="mb-3.5">
-                  <a
-                    className="text-white hover:text-gray-700 font-medium leading-relaxed"
-                    href="#"
-                  >
-                    Events
-                  </a>
-                </li>
-                <li>
-                  <a
-                    className="text-white hover:text-gray-700 font-medium leading-relaxed"
-                    href="#"
-                  >
-                    Contact
-                  </a>
+                  <Link href="/blog">
+                    <a className="text-white font-medium leading-relaxed">
+                      Blog
+                    </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -54,7 +44,7 @@ const Footer = () => {
               <ul>
                 <li className="mb-3.5">
                   <a
-                    className="text-white hover:text-gray-700 font-medium leading-relaxed"
+                    className="text-white font-medium leading-relaxed"
                     href="#"
                   >
                     Blog
@@ -62,65 +52,19 @@ const Footer = () => {
                 </li>
                 <li className="mb-3.5">
                   <a
-                    className="text-white hover:text-gray-700 font-medium leading-relaxed"
-                    href="#"
+                    className="text-white font-medium leading-relaxed"
+                    href="/blog"
                   >
                     News
                   </a>
                 </li>
-                <li className="mb-3.5">
-                  <a
-                    className="text-white hover:text-gray-700 font-medium leading-relaxed"
-                    href="#"
-                  >
-                    Guides
-                  </a>
-                </li>
+
                 <li>
                   <a
-                    className="text-white hover:text-gray-700 font-medium leading-relaxed"
+                    className="text-white font-medium leading-relaxed"
                     href="#"
                   >
                     Help Center
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div className="w-full sm:w-1/2 lg:w-2/12 p-8">
-              <h3 className="mb-6 font-semibold text-white leading-normal">
-                Community
-              </h3>
-              <ul>
-                <li className="mb-3.5">
-                  <a
-                    className="text-white hover:text-gray-700 font-medium leading-relaxed"
-                    href="#"
-                  >
-                    NewsFeed
-                  </a>
-                </li>
-                <li className="mb-3.5">
-                  <a
-                    className="text-white hover:text-gray-700 font-medium leading-relaxed"
-                    href="#"
-                  >
-                    Profile
-                  </a>
-                </li>
-                <li className="mb-3.5">
-                  <a
-                    className="text-white hover:text-gray-700 font-medium leading-relaxed"
-                    href="#"
-                  >
-                    Friends
-                  </a>
-                </li>
-                <li>
-                  <a
-                    className="text-white hover:text-gray-700 font-medium leading-relaxed"
-                    href="#"
-                  >
-                    Forums
                   </a>
                 </li>
               </ul>
@@ -131,36 +75,25 @@ const Footer = () => {
               </h3>
               <ul>
                 <li className="mb-3.5">
-                  <a
-                    className="text-white hover:text-gray-700 font-medium leading-relaxed"
-                    href="#"
-                  >
-                    Members
-                  </a>
+                  <Link href="/#Team">
+                    <a className="text-white font-medium leading-relaxed">
+                      Members
+                    </a>
+                  </Link>
                 </li>
                 <li className="mb-3.5">
-                  <a
-                    className="text-white hover:text-gray-700 font-medium leading-relaxed"
-                    href="#"
-                  >
-                    Activity
-                  </a>
+                  <Link href="/#Achievment">
+                    <a className="text-white font-medium leading-relaxed">
+                      Achievment
+                    </a>
+                  </Link>
                 </li>
                 <li className="mb-3.5">
-                  <a
-                    className="text-white hover:text-gray-700 font-medium leading-relaxed"
-                    href="#"
-                  >
-                    Groups
-                  </a>
-                </li>
-                <li>
-                  <a
-                    className="text-white hover:text-gray-700 font-medium leading-relaxed"
-                    href="#"
-                  >
-                    Private Group
-                  </a>
+                  <Link href="/#Invite">
+                    <a className="text-white font-medium leading-relaxed">
+                      Download
+                    </a>
+                  </Link>
                 </li>
               </ul>
             </div>

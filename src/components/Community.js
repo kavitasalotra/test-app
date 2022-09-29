@@ -62,7 +62,7 @@ const FeatureCard = () => {
             <p className="text-2xl font-bold leading-8  text-[#0A093D] sm:text-4xl">
               Community Main Feature
             </p>
-            <p className="mt-4 max-w-2xl sm:text-xl text-[#656464]  lg:mx-auto">
+            <p className="mt-2 max-w-2xl sm:text-xl text-[#656464]  lg:mx-auto">
               The wise man therefore always holds in these matters to this
               principle of selection.
             </p>

@@ -1,40 +1,24 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
-// const list = [
-//   {
-//     id: 1,
-//     tab: 'Newest',
-//   },
-//   {
-//     id: 2,
-//     tab: 'Popular',
-//   },
-//   {
-//     id: 3,
-//     tab: 'Active',
-//     membersName: '',
-//     membersId: '',
-//   },
-// ];
 
 const team = [
   {
     id: 1,
-    image: '/images/image 296.png',
+    image: '/images/image296.png',
     category: 'Newest',
     membersName: 'Fahim Rahman',
     membersId: '@rahman',
   },
   {
     id: 2,
-    image: '/images/image 299.png',
+    image: '/images/image299.png',
     category: 'Newest',
     membersName: 'Kazi Rahman',
     membersId: '@Rahman',
   },
   {
     id: 3,
-    image: '/images/image 298.png',
+    image: '/images/image298.png',
     category: 'Popular',
     membersName: 'Masterero Ali',
     membersId: '@Master',
@@ -61,7 +45,7 @@ export const Team = () => {
   };
   console.log(filterItem, 'filterItem');
   return (
-    <section className="sm:mx-16 bg-white  px-6">
+    <section className="sm:mx-16 bg-white  px-6" id="Team">
       <div className="py-6  container dark:bg-gray-800 dark:text-gray-100">
         <div className=" flex flex-col items-center justify-centers">
           <h2 className="text-lg font-semibold text-indigo-600">

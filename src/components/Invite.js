@@ -52,7 +52,7 @@ const CallToAction = () => {
             <a
               rel="noopener noreferrer"
               href="https://play.google.com/store/apps?utm_source=apac_med&utm_medium=hasem&utm_content=Oct0121&utm_campaign=Evergreen&pcampaignid=MKT-EDR-apac-in-1003227-med-hasem-ap-Evergreen-Oct0121-Text_Search_BKWS-BKWS%7cONSEM_kwid_43700058910730983_creativeid_480912223122_device_c&gclid=EAIaIQobChMI-7bc3uSq-gIVk4ZLBR3Zsw8dEAAYAiAAEgLpmPD_BwE&gclsrc=aw.ds"
-              className=" py-3 text-lg font-semibold border  dark:border-gray-100"
+              className=" py-3 text-lg font-semibold "
             >
               <button
                 type="button"
