@@ -4,10 +4,10 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <section className=" container  bg-slate-800  pt-6 overflow-hidden">
+    <section className=" bg-slate-800   pt-6 overflow-hidden">
       <div className=" px-6 mx-10  mx-auto">
         <div className="pb-20 border-b">
-          <div className="flex flex-wrap -m-8">
+          <div className="flex flex-wrap ">
             <div className="w-full sm:w-1/2 lg:w-2/12 p-8">
               <h3 className="mb-6 font-semibold text-white leading-normal">
                 Home

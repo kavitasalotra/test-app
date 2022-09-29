@@ -70,7 +70,7 @@ const FeatureCard = () => {
           <div className="mt-10">
             <dl className="space-y-10 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10 md:space-y-0">
               {data.map((item) => (
-                <div className="relative shadow-md ">
+                <div className="relative  border-solid border-2 py-4 shadow-lg ">
                   <dt>
                     <div className="absolute flex  items-center justify-center rounded-md  text-white">
                       <Image
@@ -81,7 +81,7 @@ const FeatureCard = () => {
                         className="shadow-md"
                       />
                     </div>
-                    <p className="ml-20 p-2 pt-0 text-lg font-medium leading-6 text-gray-900">
+                    <p className="ml-20 p-2 pt-0 mt-2 text-lg font-medium leading-6 text-gray-900">
                       {item.title}
                     </p>
                   </dt>

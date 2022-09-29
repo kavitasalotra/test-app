@@ -43,7 +43,7 @@ export const Team = () => {
     setTeamList(updateItems);
     setActive(updateItems);
   };
-  console.log(filterItem, 'filterItem');
+  // console.log(filterItem, 'filterItem');
   return (
     <section className="sm:mx-16 bg-white  px-6" id="Team">
       <div className="py-6  container dark:bg-gray-800 dark:text-gray-100">
@@ -61,10 +61,16 @@ export const Team = () => {
           <ul className=" hidden text-sm font-medium text-center text-gray-500  bg-sky-100 rounded-lg divide-x divide-gray-200 shadow sm:flex dark:divide-gray-700 dark:text-gray-400">
             <li className="w-full">
               <button
-                className={`inline-block p-4 w-full text-gray-900  focus:ring-4 focus:ring-blue-300 active focus:outline-none dark:bg-gray-700 dark:text-white ${
-                  active ? '' : ''
-                }`}
-                s
+                className="inline-block p-4 w-full text-gray-900  focus:ring-4 focus:ring-blue-300 active focus:outline-none dark:bg-gray-700 dark:text-white"
+                aria-current="page"
+                onClick={() => filterItem('teamList')}
+              >
+                All
+              </button>
+            </li>
+            <li className="w-full">
+              <button
+                className="inline-block p-4 w-full text-gray-900  focus:ring-4 focus:ring-blue-300 active focus:outline-none dark:bg-gray-700 dark:text-white"
                 aria-current="button"
                 onClick={() => filterItem('Newest')}
               >

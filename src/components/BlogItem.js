@@ -17,7 +17,7 @@ const Blog = ({ item, filePath }) => {
             />
           </a>
         </Link>
-        <div className="p-2 text-left">
+        <div className="p-2 pl-0 text-left">
           <Link href={`/post/${filePath.replace(/\.mdx?$/, '')}`}>
             <a>
               <h5 className=" cursor-pointer mb-2 text-xl text-left font-semibold tracking-tight text-gray-900 dark:text-white">
@@ -27,7 +27,7 @@ const Blog = ({ item, filePath }) => {
             </a>
           </Link>
           <Link href={`/post/${filePath.replace(/\.mdx?$/, '')}`}>
-            <a className="cursor-pointer inline-flex items-center py-2 px-3 text-base font-medium text-center text-gray-700 rounded-lg hover:text-[#217BF4]">
+            <a className="cursor-pointer inline-flex items-center py-2 pl-0 px-3 text-base font-medium text-center text-gray-700 rounded-lg hover:text-[#217BF4]">
               Continue Reading
               <svg
                 aria-hidden="true"
