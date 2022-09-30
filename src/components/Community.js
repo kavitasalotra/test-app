@@ -50,12 +50,12 @@ const data = [
 const FeatureCard = () => {
   return (
     <section
-      className=" sm:mx-20 sm:max-w-screen-xl bg-white  px-6"
+      className=" sm:mx-auto sm:max-w-screen-xl bg-white  px-6"
       id="Community"
     >
       <div className="bg-white py-12">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="lg:text-center">
+        <div className="mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center lg:text-center">
             <h2 className="text-lg font-semibold text-[#217BF4]">
               Our Community
             </h2>
@@ -68,7 +68,7 @@ const FeatureCard = () => {
             </p>
           </div>
           <div className="mt-10">
-            <dl className="space-y-10 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10 md:space-y-0">
+            <dl className=" sm:p-4 space-y-10 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10 md:space-y-0">
               {data.map((item) => (
                 <div className="relative  border-solid border-2 py-4 shadow-lg ">
                   <dt>

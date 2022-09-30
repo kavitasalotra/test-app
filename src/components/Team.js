@@ -46,7 +46,7 @@ export const Team = () => {
   // console.log(filterItem, 'filterItem');
   return (
     <section className="sm:mx-16 bg-white  px-6" id="Team">
-      <div className="py-6  container dark:text-gray-100">
+      <div className="py-6  container ">
         <div className=" flex flex-col items-center justify-centers">
           <h2 className="text-lg font-semibold text-indigo-600">
             Valuable Team
@@ -55,13 +55,13 @@ export const Team = () => {
             Our Active Members
           </h1>
           <p className="max-w-2xl text-center  text-[#656464]  mb-4">
-            when an unknown printer took a galley of type and meeting fari
-            scrambled it.
+            when an unknown printer took a gallery of type and meeting scrambled
+            it.
           </p>
-          <ul className=" hidden text-sm font-medium text-center text-gray-500  bg-sky-100 rounded-lg divide-x divide-gray-200 shadow sm:flex dark:divide-gray-700 dark:text-gray-400">
+          <ul className=" hidden text-sm font-medium text-center text-gray-500  bg-sky-100 rounded-lg divide-x divide-gray-200 shadow sm:flex">
             <li className="w-full">
               <button
-                className="inline-block p-4 w-full text-gray-900  focus:ring-4 focus:ring-blue-300 active focus:outline-none dark:bg-gray-700 dark:text-white"
+                className="inline-block p-4 w-full text-gray-900  focus:ring-4 focus:ring-blue-300 active focus:outline-none "
                 aria-current="page"
                 onClick={() => setTeamList(team)}
               >
@@ -70,7 +70,7 @@ export const Team = () => {
             </li>
             <li className="w-full">
               <button
-                className="inline-block p-4 w-full text-gray-900  focus:ring-4 focus:ring-blue-300 active focus:outline-none dark:bg-gray-700 dark:text-white"
+                className="inline-block p-4 w-full text-gray-900  focus:ring-4 focus:ring-blue-300 active focus:outline-none"
                 aria-current="button"
                 onClick={() => filterItem('Newest')}
               >
@@ -79,7 +79,7 @@ export const Team = () => {
             </li>
             <li className="w-full">
               <button
-                className="inline-block p-4 w-full text-gray-900  focus:ring-4 focus:ring-blue-300 active focus:outline-none dark:bg-gray-700 dark:text-white"
+                className="inline-block p-4 w-full text-gray-900  focus:ring-4 focus:ring-blue-300 active focus:outline-none "
                 aria-current="button"
                 onClick={() => filterItem('Popular')}
               >
@@ -88,7 +88,7 @@ export const Team = () => {
             </li>
             <li className="w-full">
               <button
-                className="inline-block p-4 w-full text-gray-900  focus:ring-4 focus:ring-blue-300 active focus:outline-none dark:bg-gray-700 dark:text-white"
+                className="inline-block p-4 w-full text-gray-900  focus:ring-4 focus:ring-blue-300 active focus:outline-none"
                 aria-current="page"
                 onClick={() => filterItem('Active')}
               >
@@ -103,7 +103,7 @@ export const Team = () => {
                   <div className="text-center text-gray-500 dark:text-gray-400">
                     <Image
                       alt=""
-                      className="self-center flex-shrink-0 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500"
+                      className="self-center flex-shrink-0 mb-4 bg-center bg-cover rounded-full"
                       height={144}
                       width={144}
                       src={item.image}

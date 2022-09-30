@@ -2,16 +2,16 @@ import React from 'react';
 
 const cardItem = () => {
   return (
-    <div class="p-4 max-w-xs bg-white rounded-lg border my-8 border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+    <div class="p-6 text-center  sm:max-w-xs sm: bg-white rounded-lg sm:border my-8 sm:border-gray-200 sm:shadow-md dark:bg-gray-800 dark:border-gray-700">
       <a href="#">
-        <h1 className="text-lg font-medium leading-4 text-blue-400">
+        <h1 className=" mb-2 text-lg font-medium leading-4 text-blue-400">
           Our Achievement
         </h1>
         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
           We are Connecting You The Digital Life.
         </h5>
       </a>
-      <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+      <p class="mb-4 font-normal text-gray-700 dark:text-gray-400">
         The scope the Social Media becomes crucial Is helps the business to
         directly engage with their needs and wants.
       </p>

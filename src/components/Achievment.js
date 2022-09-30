@@ -4,7 +4,10 @@ import ReviewCard from './ReviewCard';
 
 const Achievment = () => {
   return (
-    <div className="hidden sm:flex justify-space-between" id="Achievment">
+    <div
+      className="flex-wrap sm:flex  sm:justify-space-between"
+      id="Achievment"
+    >
       <ReviewCard />
       <CardItem />
     </div>

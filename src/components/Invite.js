@@ -4,10 +4,10 @@ import React from 'react';
 
 const CallToAction = () => {
   return (
-    <div className="bg-[#E5F0FD]" id="Invite">
-      <div className="container sm:mx-16 p-8 flex flex-col justify-center lg:flex-row lg:justify-between">
+    <div className="bg-[#E5F0FD] " id="Invite">
+      <div className=" sm:mx-16 p-8 flex flex-col justify-center lg:flex-row lg:justify-between">
         <div>
-          <div class="container m-auto px-6 space-y-8 md:px-12 lg:px-20">
+          <div class=" m-auto px-6 space-y-8 md:px-12 lg:px-20">
             <div class="items-center justify-center gap-16 text-center md:text-left md:flex">
               <div class="order-last mb-6 space-y-6 md:mb-0 md:w-7/12 lg:w-6/12">
                 <h1 class="text-sm text-[#4F46E5] font-normal md:text-xl">

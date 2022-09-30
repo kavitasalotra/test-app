@@ -32,13 +32,13 @@ const About = () => {
                     src="/images/about-2.png"
                     width={281}
                     height={422}
-                    className="rounded-3xl object-cover"
+                    className="sm:rounded-3xl object-cover"
                   />
                 </div>
               </div>
             </div>
             <div className="grid content-center gap-4">
-              <div className=" rounded-lg dark:bg-gray-900">
+              <div className=" rounded-lg">
                 <Image
                   src="/images/about-1.png"
                   width={267}
@@ -46,7 +46,7 @@ const About = () => {
                   className="rounded-3xl object-cover "
                 />
               </div>
-              <div className=" dark:bg-gray-900">
+              <div>
                 <Image
                   src="/images/about-3.png"
                   width={267}
