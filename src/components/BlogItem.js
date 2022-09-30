@@ -20,7 +20,7 @@ const Blog = ({ item, filePath }) => {
         <div className="p-2 pl-0 text-left">
           <Link href={`/post/${filePath.replace(/\.mdx?$/, '')}`}>
             <a>
-              <h5 className=" cursor-pointer mb-2 text-xl text-left font-semibold tracking-tight text-gray-900 dark:text-white">
+              <h5 className=" cursor-pointer mb-2 text-xl text-left font-semibold tracking-tight text-gray-900 dark:text-gray-900">
                 <span className="mr-2 font-normal text-orange-400">―</span>
                 {item.title}
               </h5>

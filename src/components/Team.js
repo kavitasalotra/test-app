@@ -108,7 +108,7 @@ export const Team = () => {
                       width={144}
                       src={item.image}
                     />{' '}
-                    <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-900">
                       <a href="#">{item.membersName}</a>
                     </h3>
                     <p>{item.membersId}</p>

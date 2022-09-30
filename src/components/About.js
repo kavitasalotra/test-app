@@ -23,10 +23,10 @@ const About = () => {
             <li className="leading-5 text-lg mb-2">Share</li>
           </ul>
         </div>
-        <div className=" p-0 sm:p-6   xl:col-span-3">
+        <div className=" p-0 sm:p-6  xl:col-span-3">
           <div className=" hidden sm:grid gap-4 md:grid-cols-2">
             <div className="grid content-center gap-4">
-              <div className=" dark:bg-gray-900">
+              <div className=" ">
                 <div className=" flex items-center mt-4 space-x-4">
                   <Image
                     src="/images/about-2.png"
