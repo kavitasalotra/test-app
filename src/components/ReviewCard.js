@@ -40,8 +40,8 @@ const reviewImage = [
 
 const ReviewCard = () => {
   return (
-    <div className=" hidden sm:ml-14  sm:mr-4  bg-white  px-6">
-      <div className="flex justify-center sm:gap-8">
+    <div className="  sm:ml-14  sm:mr-4  bg-white  px-6">
+      <div className="hidden sm:flex justify-center sm:gap-8">
         {card.map((item) => (
           <div className="bg-white border-solid border-2 py-4 shadow-lg rounded-lg  px-4 py-4 max-w-sm  my-8">
             <div className="mb-1 tracking-wide px-4 py-4">

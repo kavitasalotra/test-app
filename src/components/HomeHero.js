@@ -5,7 +5,7 @@ const HomeHero = () => {
   return (
     <section className=" sm:mx-20 sm:max-w-screen-xl bg-white  px-6">
       <div className="grid  px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-        <div className="mr-auto place-self-center lg:col-span-7">
+        <div className="mr-auto  text-center  sm:place-self-center  sm:text-left lg:col-span-7">
           <button
             type="button"
             className=" py-2 w-40 sm:w-52 font-medium text-xs text-[#217BF4] rounded-lg bg-blue-100"
