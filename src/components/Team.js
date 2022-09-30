@@ -46,7 +46,7 @@ export const Team = () => {
   // console.log(filterItem, 'filterItem');
   return (
     <section className="sm:mx-16 bg-white  px-6" id="Team">
-      <div className="py-6  container dark:bg-gray-800 dark:text-gray-100">
+      <div className="py-6  container dark:text-gray-100">
         <div className=" flex flex-col items-center justify-centers">
           <h2 className="text-lg font-semibold text-indigo-600">
             Valuable Team
@@ -63,7 +63,7 @@ export const Team = () => {
               <button
                 className="inline-block p-4 w-full text-gray-900  focus:ring-4 focus:ring-blue-300 active focus:outline-none dark:bg-gray-700 dark:text-white"
                 aria-current="page"
-                onClick={() => filterItem('teamList')}
+                onClick={() => setTeamList(team)}
               >
                 All
               </button>
