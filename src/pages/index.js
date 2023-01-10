@@ -11,14 +11,14 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import { postFilePaths, POSTS_PATH } from '../../utils/mdxUtils';
-import Achievment from '../components/Achievment';
+import Achievement from '../components/Achievment';
 
 export default function Home({ posts }) {
   return (
     <Layout>
       <HomeHero />
       <About />
-      <Achievment />
+      <Achievement />
       <Community />
       <CallToAction />
       <Team />

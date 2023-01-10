@@ -2,16 +2,15 @@ import React from 'react';
 import CardItem from './CardItem';
 import ReviewCard from './ReviewCard';
 
-const Achievment = () => {
+const Achievement = () => {
   return (
-    <div
-      className="flex-wrap sm:flex  sm:justify-space-between"
-      id="Achievment"
-    >
-      <ReviewCard />
-      <CardItem />
+    <div className="container mx-auto">
+      <div className="flex md:justify-evenly" id="Achievement">
+        <ReviewCard />
+        <CardItem />
+      </div>
     </div>
   );
 };
 
-export default Achievment;
+export default Achievement;
